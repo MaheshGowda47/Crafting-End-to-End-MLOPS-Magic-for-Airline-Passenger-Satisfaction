@@ -1,0 +1,1 @@
+{"raw_data": {"rows": 129880, "columns": 24, "file_size": 12875197}, "pre_data": {"rows": 129880, "columns": 13, "file_size": 3504614}, "X_train": {"rows": 103904, "columns": 12, "file_size": 10806865}, "X_test": {"rows": 25976, "columns": 12, "file_size": 2702349}}

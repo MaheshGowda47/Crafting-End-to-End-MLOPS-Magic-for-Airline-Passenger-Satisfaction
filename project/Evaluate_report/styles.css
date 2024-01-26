@@ -1,0 +1,40 @@
+/* CSS for styling the table */
+
+.styled-table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  
+  .styled-table th,
+  .styled-table td {
+    border: 1px solid #dddddd;
+    text-align: center;
+    padding: 8px;
+  }
+  
+  .styled-table th {
+    background-color: #f2f2f2;
+    color: #333333;
+  }
+  
+  .styled-table tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
+  .styled-table tbody tr:hover {
+    background-color: #e9e9e9;
+  }
+  
+  /* Specific cell coloring */
+  .styled-table tbody td:nth-child(1),
+  .styled-table tbody td:nth-child(8),
+  .styled-table tbody td:nth-child(9),
+  .styled-table tbody td:nth-child(10),
+  .styled-table tbody td:nth-child(11),
+  .styled-table tbody td:nth-child(12),
+  .styled-table tbody td:nth-child(13) {
+    background-color: #c1e1c1;
+    color: #333333;
+  }
+  

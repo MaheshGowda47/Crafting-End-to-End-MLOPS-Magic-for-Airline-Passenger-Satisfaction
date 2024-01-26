@@ -1,0 +1,39 @@
+raw_data:
+  type : pandas.CSVDataset
+  filepath : data/01_raw/airline_passenger_satisfaction.csv
+
+pre_data:
+  type : pandas.CSVDataset
+  filepath : data/02_processed/pre_data.csv
+
+X_train:
+  type : pickle.PickleDataset
+  filepath : data/03_split_evaluation/X_train.pkl
+
+X_test:
+  type: pickle.PickleDataset
+  filepath: data/03_split_evaluation/X_test.pkl
+
+y_train:
+  type: pickle.PickleDataset
+  filepath: data/03_split_evaluation/y_train.pkl
+
+y_test:
+  type: pickle.PickleDataset
+  filepath: data/03_split_evaluation/y_test.pkl
+
+model:
+  type: pickle.PickleDataset
+  filepath: data/05_model/model.pkl
+
+# classification_performance:
+#   type: json.JSONDataset
+#   filepath: data/06_report/lassification_performance.json
+
+# data_drift: 
+#   type: json.JSONDataset
+#   filepath: data/06_report/data_drift.json 
+
+# target_drift: 
+#   type: json.JSONDataset
+#   filepath: data/06_report/target_drift.json 
